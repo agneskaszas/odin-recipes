@@ -1,0 +1,57 @@
+body {
+    font-family: Papyrus, Lucida Handwriting, sans-serif;
+    background-color: hsl(51, 38%, 89%);
+}
+a:link{
+    color: hsl(51, 38%, 89%);
+    text-decoration: none;
+}
+
+a:visited{
+    color: hsl(51, 38%, 89%);
+    text-decoration: none;
+}
+.title {
+    display: block;
+    font-weight: bold;
+    font-size: 40px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-right: auto;
+}
+
+#image {
+    display: block;
+    width: 35%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    border: 5px dotted hsl(153, 100%, 32%);
+}
+
+.information {
+    width: 300px;
+    margin-left: 750px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#lasagna,
+#onionsoup,
+#stuffedcabbage {
+    display: block;
+    background-color: hsl(153, 100%, 32%);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#more {
+    display: block;
+    width: 500px;
+    margin-left: 817px;
+    margin-top: 100px;
+    color: black;
+}
